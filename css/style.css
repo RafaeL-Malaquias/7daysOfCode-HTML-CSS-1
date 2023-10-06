@@ -120,7 +120,7 @@ a {
     width: 280px;
     height: 72px;
     letter-spacing: -0.02em;
-    font-weight: 600px;
+    font-weight: bold;
 }
 .metricas-container2> div h2 {
     color: var(--cor-preto);
