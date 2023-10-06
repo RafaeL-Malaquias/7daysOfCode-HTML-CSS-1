@@ -89,4 +89,9 @@ a {
 
 }
 
+.metricas-container {
+    background-color: gray;
+    display: flex;
+}
+
 
