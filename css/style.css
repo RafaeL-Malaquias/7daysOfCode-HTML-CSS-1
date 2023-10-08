@@ -182,14 +182,15 @@ a {
 .box-vagas {
     width: 50%;
     margin: 0 auto;
+    font-family: var(--fonte-inter);
 }
 .titulo-vagas {
     font-size: 20px;
     font-weight: 500px;
     line-height: 30px;
     color: var(--cor-preto);
-    margin-top: 3px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .vaga {
@@ -197,16 +198,15 @@ a {
     border: 1px solid var(--cor-cinza-claro);
     border-radius: 15px;
     margin-bottom: 10px;
-    padding: 24px 24px 27px 24px;
+    padding: 24px 24px 28px 24px;
 }
-.job-titulos {
+.job-titulo {
     color: var(--cor-preto);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500px;
+    font-weight: bold;
 }
 .info {
     color: var(--cor-cinza);
     margin-top: 30px;
-
 }
