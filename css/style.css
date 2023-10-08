@@ -180,13 +180,19 @@ a {
 
 .box-vagas {
     width: 60%;
-    margin: 0 auto;
 }
-.vagas-titulos {
-    font-size: 20px;
+.titulo-vagas {
+    font-size: 50px;
     font-weight: 500px;
     line-height: 30px;
     color: var(--cor-preto);
-    margin-top: 64px;
-    margin-bottom: 32px;
+    margin-bottom: 50px;
+}
+
+.vaga {
+    margin-bottom: 25px;
+    border: 1px solid var(--cor-cinza);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding: 24px 24px 30px 24px;
 }
