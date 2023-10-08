@@ -5,6 +5,7 @@
 :root {
     --cor-branco: #FFFFFF;
     --cor-cinza: #667085;
+    --cor-cinza-claro: #EAECF0;
     --cor-vinho: #8E2424;
     --cor-preto: #101828;
     --fonte-inter: 'Inter', sans-serif;
@@ -193,10 +194,16 @@ a {
 
 .vaga {
     margin-bottom: 25px;
-    border: 1px solid var(--cor-cinza);
+    border: 1px solid var(--cor-cinza-claro);
     border-radius: 15px;
     margin-bottom: 10px;
     padding: 24px 24px 27px 24px;
+}
+.job-titulos {
+    color: var(--cor-preto);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500px;
 }
 .info {
     color: var(--cor-cinza);
