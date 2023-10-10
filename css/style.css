@@ -212,19 +212,26 @@ a {
 }
 /*-----------------------------------*/
 .content {
-    background-color: #667085;
+    background-color: #C3191908;
     width: 1216px;
     height: 404px;
     border-radius: 16px;
     margin-top: 90px;
     text-align: center;
     font-family: var(--fonte-inter);
+    padding: 0px 0px 96px 0px;
 }
-.content-box>span {
+.content-box >span {
     color: var(--cor-vinho);
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
-
+    font-weight: bold;
+}
+.content-box >h2 {
+    color: var(--cor-preto);
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600px;
 }
 .content-box {
     display: inline-block;
@@ -234,5 +241,17 @@ a {
 .content-foto {
     display: inline-block;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.content-foto > h2 {
+    color: var(--cor-preto);
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+.content-foto > p {
+    color: var(--cor-cinza);
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
 }
