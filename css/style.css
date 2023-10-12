@@ -305,7 +305,7 @@ form > button {
     width: 116px;
     height: 48px;
 }
-form > button:hover {
+.btn:hover {
     cursor: pointer;
 }
 .rodape-reser {
