@@ -1,1 +1,72 @@
-@charset 
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+:root {
+    --fundo-card: #1B2226;
+    --input: #38434F;
+    --primario: #70B5F9;
+    --text-escuro: #000000BF; /* testa alpha  75%*/
+    --text-primario: #FFFFFFE5 ; /*90%*/
+    --text-secundario: #FFFFFF99;
+    --trasnparente: #ffffff;  /*0%*/
+    --font: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    background-color: var(--fundo-card);
+}
+logo-linkedin {
+}
+.conteiner-pesquisa {
+    margin: 10px;
+    display: flex;
+    background-color: var(--input);
+    width: 280px;
+    height: 34px;
+    border-radius: 4px;
+}
+.img-pesquisa {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+::placeholder{
+    color: var(--text-primario);
+    font-weight: 600px; 
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+ input {  
+    font-family: var(--font);
+    margin: 2px 40px;
+    border: none;
+    background: none;
+    color: var(--text-primario);
+    position: absolute;
+    width: 240px;
+    height: 30px;
+}
+.icones {
+    display: flex;
+    align-content: space-between;
+    color: #ffffff;
+    margin: 50px;
+}
+span {
+    font-size: 15px;
+    margin: 0 10px 0;
+}
+.icones-text{
+    display: block;
+}
