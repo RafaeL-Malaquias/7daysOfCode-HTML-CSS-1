@@ -305,7 +305,12 @@ form > button {
     width: 116px;
     height: 48px;
 }
-.btn:hover {
+.btn-enviar{
+   text-transform: uppercase;
+}
+.btn-enviar:hover {
+    transition: all 1s;
+    background-color: #f53d3d;
     cursor: pointer;
 }
 .rodape-reser {
