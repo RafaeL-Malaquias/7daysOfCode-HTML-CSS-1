@@ -13,11 +13,28 @@
     --positivo: #3ec786;
     --font: 'Roboto', sans-serif;
 }
-* {
+body {
+    font-family: var(--font);
+    color: var(--texto-principal);
+}
+*, *::before ,::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* metedo para deixar pagina responsivo*/
+@media(max-width: 1080px){
+    html{
+      font-size: 93.75%;
+    }
+  }
+  
+  @media(max-width: 720px){
+    html{
+      font-size: 87.5%; 
+    }
+  }
+
 /* barra de persquisa */
 header {
     display: flex;
@@ -49,7 +66,6 @@ header {
     letter-spacing: 1px;
 }
  input {  
-    font-family: var(--font);
     margin: 2px 40px;
     border: none;
     background: none;
@@ -59,3 +75,25 @@ header {
 }
 /* corpo da web */
 
+/* corpo do car */
+section.card {
+    background-color: var(--fundo-card);
+    width: 782px;
+    margin-top: 8px;
+    border-radius: .8rem;
+    line-height: 1.25;
+}
+/* fotod e capa */
+.informacoes-perfil .perfil-capa img{
+    width: min(100%, 782px);
+    height: 196px;
+}
+
+/* foto do perfil */
+.perfil-foto img {
+    width: 156px;
+    height: 156px;
+    margin-top: -112px;
+    border-radius: 4px solid var(--fundo-card);
+    /*border-radius: 50%; * como img já esta 50% radiu nao precisa do elemento*/
+}
