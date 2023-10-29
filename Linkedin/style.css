@@ -97,3 +97,7 @@ section.card {
     border-radius: 4px solid var(--fundo-card);
     /*border-radius: 50%; * como img já esta 50% radiu nao precisa do elemento*/
 }
+.side-right {
+    display: flex;
+    justify-content: flex-end;
+}
