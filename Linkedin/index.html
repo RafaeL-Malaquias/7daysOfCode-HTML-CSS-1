@@ -3,41 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="style.css">
     <title>Linkedin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header class="header">
              <img class="logo-linkedin" src="img/logo-linkedin.png" alt="logo-linkedin">
                 <div class="conteiner-pesquisa">
                     <img class="img-pesquisa" src="img/icone-busca.png" alt="">
                     <input type="text" placeholder="Pesquisa">
                     </div>
-                </header>
                 <main>
-
-                    <img src="img/Imagem de capa.png" alt="">
-                        <img src="img/foto-perfil.png" alt="" class="foto-perfil">
-                        <section>
-                    <div class="perfil">
-                        <h1>RafaeL Malaquias</h1>
-                            <p>Desenvolvedor Web | HTML | CSS | JavaScript</p>
-                            <p class="">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
-                            <p>Cidade, estado e país . <a href="">Informação de contato</a></p>
-                            <span class="seguidores">??? seguidores ??? coneções</span>
-                            <br>
-                            <button>Mensagem</button>
-                            <button class="btn-2">Mais</button>
-                            <section class="side-right">
-                                <img src="img/Rectangle 5 (1).png" alt="">
-                            </section>
-
+                    <section class="card infomarcoes-perfil">
+                        <div class="perfil-capa">
+                            <img src="img/Imagem de capa.png" alt="">
                         </div>
-                    </section>
-                </main>
+                        
+                        <div class="foto-perfil-wrap">
+                            <div class="perfil-foto">
+                                <img src="img/foto-perfil.png" alt="perfil foto">
+                                    <span class="oniline" >Online</span>
+                            </div>
+                            <div class="perfil-notificacao">
+                                <span class="icone icone-notificacao"></span>
+                            </div>
+                        </div>
 
-                
+                        <div class="perfil-detalhes-wrap">
+                        
+                            <div class="perfil-detalhes-pessoal">
+                                <h1>RafaeL Malaquias</h1>
+                                <div class="texto-medio">
+                                    Desenvolvedor Web | HTML | CSS | JavaScript
+                                </div>
+                                <div class="texto-pequeno">
+                                    Fala sobre #javascript, #frontend, #reactjs, e #backend
+                                </div>
+                            </div>
+                            <!--uma a, img e h2 dentro li -->
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/Rectangle 5 (1).png" alt="Logo do perfil da empresa">
+                                        <h2>Empresa</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/Rectangle 5.png" alt="logo do perfil da institição de ensino">
+                                        <h2>Instituição de ensino</h2>
+                                    </a>
+                                </li>
+                            </ul>
 
+                            <div class="perfil-detalhes-local">
+                                <span>Cidade, estado e país .</span>
+                                <span class="local-contato">
+                                    <a href="#">Informação de contato</a>
+                                </span>
+                            </div>
+                            </div>
+
+                                <ul class="perfil-conexoes">
+                                    <li>??? seguidores</li>
+                                    <li>??? coneções</li>
+                                </ul>
+
+                            <div class="perfil-acoes">
+                                <button class="botao botao-primario">Mensagem</button>
+                                <button class="botao botao-secundario">Mais</button>
+                            </div>
+                        </section>
+
+                    </main>
+                    
 </body>
 </html>
