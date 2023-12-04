@@ -28,16 +28,21 @@ header {
 .links {
     display: flex;
     gap: 32px;
-    margin-right: 500px;
+    margin-right: 490px;
 }
 a {
     color: var(--cor-cinza);
+    padding: 10px;
+}
+a:hover{
+    background-color: #F9FAFB;
+    border-radius: 10px;
 }
 .header-button {
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .header-button button {
     color: var(--cor-cinza);
