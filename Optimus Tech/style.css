@@ -28,15 +28,15 @@ header {
 .links {
     display: flex;
     gap: 32px;
-    margin-right: 490px;
+    margin-right: 500px;
 }
 a {
     color: var(--cor-cinza);
     padding: 10px;
 }
-a:hover{
-    background-color: #F9FAFB;
-    border-radius: 10px;
+.links a:hover{
+    background-color: #eaeaea;
+    border-radius: 8px;
 }
 .header-button {
     display: flex;
